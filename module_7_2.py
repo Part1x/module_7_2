@@ -7,7 +7,7 @@ def custom_write(file_name, strings):
             b = i + 1, c
             a ={b: string}
             strings_positions.update(a)
-            
+        return strings_positions
 
 info = [
     'Text for tell.',
